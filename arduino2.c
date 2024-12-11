@@ -17,8 +17,11 @@ void loop(){
 
     int state = digitalread(pulsador);
 
-    if (state ==HIGH){
+    if (state == HIGH){
         digitalWrite(led1, HIGH);
         digitalWrite(led2, LOW);
+    } else{
+        digitalWrite(led2, HIGH);
+        digitalWrite(led1, LOW);
     }
 }
