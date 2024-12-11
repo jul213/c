@@ -1,2 +1,2 @@
-# -c
+# c
 programas c 
