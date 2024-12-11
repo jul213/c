@@ -12,3 +12,13 @@ void setup(){
     pinmode(led2, OUTPUT);
     pinmode(pulsador, INPUT);
 }
+
+void loop(){
+
+    int state = digitalread(pulsador);
+
+    if (state ==HIGH){
+        digitalWrite(led1, HIGH);
+        digitalWrite(led2, LOW);
+    }
+}
