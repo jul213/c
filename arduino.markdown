@@ -10,7 +10,7 @@ ya sea con las resistencias, los leds, pulsador y pantalla **LCD** junto al cabl
 
 hay mas **proyectos** en este repositorio aparte de la parte de arduino ya que tambien se programa en c
 
-primera imagen del primer codigo en c[imagen del primer archivo .c de arduino esquema electrico](https://www.um.es/documents/4874468/21878008/esquema.png/8fb51d80-2854-732c-f71b-77f65d8a0b37?t=1608295131044)
+primera imagen del primer codigo en c [imagen del primer archivo .c de arduino esquema electrico](https://www.um.es/documents/4874468/21878008/esquema.png/8fb51d80-2854-732c-f71b-77f65d8a0b37?t=1608295131044)
 
 
 
