@@ -6,3 +6,8 @@ teniendo en cuenta que solo es el codigo en c en arduino pero se tiene que conta
 
 ya sea con las resistencias, los leds, pulsador y pantalla LCD junto al cableado
 
+***
+
+hay mas proyectos en este repositorio aparte de la parte de arduino ya que tambien se programa en c
+
+
