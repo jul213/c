@@ -21,5 +21,13 @@ void loop(){
 
     lcd.setCursor(0,0);
     
+    if (state == HIGH){
+        lcd.print("boton pulsado");
+    } 
+    else {
+        lcd.print("no pulsado");
+    }
+
+    delay(10);
 }
 
