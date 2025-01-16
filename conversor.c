@@ -16,4 +16,16 @@ float libras_kg (float libras){
   return libras / 2.204;
 }
 
-int main()
+int main() {
+ int opcion;
+ float valor;
+
+ do {
+  printf("Bienvenido al conversor de unidades");
+  printf("1-convertir de metros a pies");
+  printf("2-convertir de pies a metros");
+  printf("3-convertir de kilogramos a libras");
+  printf("4-convertir de libras a kilogramos");
+  printf("0-salir del sistema");
+  }
+ }
