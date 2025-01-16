@@ -27,5 +27,11 @@ int main() {
   printf("3-convertir de kilogramos a libras");
   printf("4-convertir de libras a kilogramos");
   printf("0-salir del sistema");
+  scanf("%d", &opcion);
+
+  if (opcion != 0){
+   printf("ingrese el valor a convertir: ");
+   scanf("%f", &valor);
+   }
   }
  }
