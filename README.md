@@ -1,5 +1,5 @@
 # repositorio de c
-programas c  con **arduino**
+programas c  con **arduino** y otros
 
 ***
 - programas en c junto con arduino
