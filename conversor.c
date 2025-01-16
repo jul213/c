@@ -32,6 +32,12 @@ int main() {
   if (opcion != 0){
    printf("ingrese el valor a convertir: ");
    scanf("%f", &valor);
+
+   switch (opcion) {
+    case 1:
+       printf("el valor es: %.2f metros son %.2f pies", valor, metros_pies(valor));
+       break;
+    }
    }
   }
  }
