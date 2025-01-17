@@ -22,6 +22,7 @@ void guardar_conversion(float valor_inicial, valor_convertido) {
    printf("error en el archivo del historial");
    return;
   }
+ fprintf(archivo, "valor inicial: %.2f -> valor convertido: %.2f", valor_inicial, valor_convertido);
 }
 int main() {
  int opcion;
