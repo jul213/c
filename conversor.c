@@ -50,7 +50,11 @@ int main() {
        break;
     default:
         printf("error no hay opcion soportada por este numero ingrese uno valido");
-    }
+    } 
+     
    }
+
+  printf("perfecto saliendo del programa");
+  return 0;
   }
  }
