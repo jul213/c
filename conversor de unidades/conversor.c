@@ -54,7 +54,7 @@ int main() {
      
    }
 
-  printf("perfecto saliendo del programa");
+  printf("perfecto saliendo del programa tenga un buen dia");
   return 0;
   }
  }
