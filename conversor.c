@@ -41,6 +41,15 @@ int main() {
     case 2:
        printf("el valor es: %.2f pies son %.2f metros", valor, pies_metros(valor));
        break;
+
+    case 3:
+       printf("el valor es: %.2f kilogramos son %.2f libras", valor, kg_libras(valor));
+       break;
+    case 4:
+       printf("el valor es: %.2f libras son %.2f kilogramos", valor, libras_kg(valor));
+       break;
+    default:
+        printf("error no hay opcion soportada por este numero ingrese uno valido");
     }
    }
   }
