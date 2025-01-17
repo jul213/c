@@ -23,6 +23,7 @@ void guardar_conversion(float valor_inicial, valor_convertido) {
    return;
   }
  fprintf(archivo, "valor inicial: %.2f -> valor convertido: %.2f", valor_inicial, valor_convertido);
+ fclose(archivo);
 }
 int main() {
  int opcion;
