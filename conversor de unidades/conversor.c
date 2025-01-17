@@ -24,6 +24,12 @@ void mostrar_historial(){
    printf("no existe el historial de conversiones");
    return;
   }
+
+ char [100];
+ printf("historial de conversiones");
+ while (fgets(linea, sizeof(linea), archivo) != null){
+     printf("%s", linea);
+  }
 }
 
 
