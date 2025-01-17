@@ -16,6 +16,13 @@ float libras_kg (float libras){
   return libras / 2.204;
 }
 
+void guardar_conversion(float valor_inicial, valor_convertido) {
+ FILE *archivo = fopen("historial_de_conversiones.txt", "a");
+ if (archivo == null){
+   printf("error en el archivo del historial");
+   return;
+  }
+}
 int main() {
  int opcion;
  float valor;
