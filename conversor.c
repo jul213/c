@@ -37,6 +37,10 @@ int main() {
     case 1:
        printf("el valor es: %.2f metros son %.2f pies", valor, metros_pies(valor));
        break;
+
+    case 2:
+       printf("el valor es: %.2f pies son %.2f metros", valor, pies_metros(valor));
+       break;
     }
    }
   }
