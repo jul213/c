@@ -25,11 +25,12 @@ void mostrar_historial(){
    return;
   }
 
- char [100];
+ char linea[100];
  printf("historial de conversiones");
  while (fgets(linea, sizeof(linea), archivo) != null){
      printf("%s", linea);
   }
+ fclose(archivo);
 }
 
 
