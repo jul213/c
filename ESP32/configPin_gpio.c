@@ -17,5 +17,6 @@ void app main(void){
 
     while (1){
         ESP_LOGI(TAG, "encendido de led %s", s_led_state == true ? "ON": "OF");
+        blink_led()
     }
 }
