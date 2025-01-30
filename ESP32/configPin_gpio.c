@@ -9,3 +9,8 @@ static void configureLed(void){
 static void blink_led(void){
         gpio_set_level(BLINK_GPIO, s_led_state) //variable definida como global 
 }
+
+void app main(void){
+
+    configureLed();
+}
