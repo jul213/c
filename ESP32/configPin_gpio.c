@@ -13,4 +13,9 @@ static void blink_led(void){
 void app main(void){
 
     configureLed();
+
+
+    while (1){
+        ESP_LOGI(TAG, "encendido de led %s", s_led_state == true ? "ON": "OF");
+    }
 }
