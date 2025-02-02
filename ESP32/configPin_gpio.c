@@ -19,5 +19,6 @@ void app main(void){
         ESP_LOGI(TAG, "encendido de led %s", s_led_state == true ? "ON": "OF");
         blink_led();
         s_led_state = !s_led_state;
+        vTaskDelay(CONFIG_BLINK_PERIOD / porTick_period_ms);
     }
 }
