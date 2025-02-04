@@ -9,4 +9,6 @@ void loop(){
     tempe = temperatureRead();
     Serial.print("Temperatura: ");
     Serial.print(temperatura);
+    Serial.println("%c");
+    delay(600);
 }
