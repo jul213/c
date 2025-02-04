@@ -15,7 +15,7 @@ let led10 = new Digital({
 
 let count = 0;
 Timer.repeat(() => {
-    trace("en cuenta ${++count}");
+    trace(`en cuenta ${++count}`);
     led5.write(count & 1);
     led10.write((-count) & 1);
 }, 1000)
