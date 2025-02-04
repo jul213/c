@@ -18,7 +18,7 @@ esp_light_sleep_start();
 
 //sueño profundo
 
-RTC_DATA_ATTR int contador = 0;
+RTC_DATA_ATTR int contador = 0; // el rct es para que mantenga su valor cuando haga el sueño profundo;
 void setup(){
     Serial.begin(115200);
     contador++;
