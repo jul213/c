@@ -10,3 +10,7 @@ const bt0 = ({
 
 trace(`el pin del boton esta ${BUTTON_PIN}`);
 
+let anterior = 0;
+Timer.repeat(() => {
+    const actual = bt0.read();
+})
