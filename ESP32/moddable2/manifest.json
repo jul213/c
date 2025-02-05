@@ -1,6 +1,9 @@
 {
     "include": [
         "$(MODDABLE)/examples/manifest.json",
-        
-    ]
+        "$(MODULES)/pins/digital/manifest.json"
+    ],
+    "modules": {
+        "*": "./button"
+    }
 }
