@@ -13,4 +13,9 @@ trace(`el pin del boton esta ${BUTTON_PIN}`);
 let anterior = 0;
 Timer.repeat(() => {
     const actual = bt0.read();
-})
+    if (actual !== anterior){
+        trace(`cambio de estado a ${actual}`);
+        anterior = actual;
+    }
+
+}, 100);
