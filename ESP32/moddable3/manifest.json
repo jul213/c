@@ -2,5 +2,8 @@
     "include": [
         "$(MODDABLE)/moddable3/manifest.json",
         "$(MODULES)/modules/pins/analog/manifest.json"
-    ]
+    ],
+    "modules": {
+        "*": "./analogico"
+    }
 }
