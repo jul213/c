@@ -7,3 +7,6 @@ const bt0 = ({
     pin: BUTTON_PIN,
     mode: Digital.InputPullUp,
 });
+
+trace(`el pin del boton esta ${BUTTON_PIN}`);
+
