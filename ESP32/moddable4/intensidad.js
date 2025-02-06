@@ -42,5 +42,14 @@ Timer.repeat(() => {
             }
             a.write(aVal)
             break;
+        case 3:
+            bval += 20;
+            if (bval > 1023){
+                bval = 1023
+                estado = 0;
+                trace(`pasamos a estado ${estado}`)
+            }
+            b.write(bval)
+            break;
     }
 })
