@@ -1,6 +1,6 @@
 {
     "include": [
-        "$(MODDABLE)/moddable3/manifest.json",
+        "$(MODDABLE)/examples/manifest_base.json",
         "$(MODULES)/modules/pins/analog/manifest.json"
     ],
     "modules": {
