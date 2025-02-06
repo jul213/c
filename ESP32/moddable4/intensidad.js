@@ -52,4 +52,4 @@ Timer.repeat(() => {
             b.write(bval)
             break;
     }
-})
+}, 50)
