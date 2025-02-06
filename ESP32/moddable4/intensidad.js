@@ -24,6 +24,13 @@ Timer.repeat(() => {
             }
             a.write(aVal)
             break;
-        
+        case 1:
+            bVal -= 20;
+            if (bVal < 1){
+                bVal = 1;
+                estado = 2;
+                trace(`pasamos a ete estad0 ${estado}`)
+            }
+            b.write(bVal);
     }
 })
