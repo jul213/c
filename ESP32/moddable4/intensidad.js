@@ -20,7 +20,10 @@ Timer.repeat(() => {
             if (aVal < 1){
                 aVal = 1
                 estado = 1;
-                trace()
+                trace(`pasamos a estado ${estado}`)
             }
+            a.write(aVal)
+            break;
+        
     }
 })
