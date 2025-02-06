@@ -16,6 +16,11 @@ b.write(bVal);
 Timer.repeat(() => {
     switch (estado){
         case 0:
-            
+            aVal -= 20;
+            if (aVal < 1){
+                aVal = 1
+                estado = 1;
+                trace()
+            }
     }
 })
