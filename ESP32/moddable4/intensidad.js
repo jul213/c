@@ -11,3 +11,11 @@ let bVal = 1023;
 
 a.write(aVal)
 
+b.write(bVal);
+
+Timer.repeat(() => {
+    switch (estado){
+        case 0:
+            
+    }
+})
