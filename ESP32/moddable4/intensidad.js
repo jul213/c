@@ -29,7 +29,7 @@ Timer.repeat(() => {
             if (bVal < 1){
                 bVal = 1;
                 estado = 2;
-                trace(`pasamos a ete estad0 ${estado}`)
+                trace(`pasamos a ete estado ${estado}`)
             }
             b.write(bVal);
             break;
