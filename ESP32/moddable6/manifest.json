@@ -7,5 +7,9 @@
         "*": [
             "./main"
         ]
+    },
+    "config": {
+        "ssid": "DanielWifi",
+        "password": "1234567890"
     }
 }
