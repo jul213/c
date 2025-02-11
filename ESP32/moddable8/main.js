@@ -22,5 +22,14 @@ mqtt.onReady = function(){
 }
 
 mqtt.onMessage = function(topic, body){
-    trace(`received ${topic}: ${String.fromArrayBuffer(body)}`);
+    trace(`recibir ${topic}: ${String.fromArrayBuffer(body)}`);
 };
+
+
+mqtt.onClose = function(){
+    trace(`coneccion perdida del servidor`);
+    if (this.timer){
+        Timer.clear(this.timer);
+        delete this.timer;
+    }
+}
