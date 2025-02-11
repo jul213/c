@@ -9,5 +9,8 @@
         "*": ["./main"]
     },
     
-    ""
+    "config": {
+        "ssid": "myWifi",
+        "password": "secreto22"
+    }
 }
