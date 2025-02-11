@@ -1,6 +1,7 @@
 import Net from "net";
 import Client from "mqtt";
 import Timer from "timer";
+import { trace } from "console";
 
 const mac = Net.get("MAC");
 const id = `ESP32_${mac.replaceAll(":","").slice(-6)}`;
@@ -19,3 +20,7 @@ mqtt.onReady = function(){
         this.publish(`ESP32/${id}/random`, Math.random());
     }, 0, 5000);
 }
+
+mqtt.onMessage = function(topic, body){
+    trace(`received ${topic}: ${String.fromArrayBuffer(body)}`);
+};
