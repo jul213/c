@@ -17,5 +17,10 @@ const monitor = new WiFi(opcionesWifi, msg => {
         case WiFi.connected:
             trace(`conectando a wifi, esperando ip`);
             break;
+        case WiFi.gotIP:
+            trace(`IP address: ${Net.get("IP")}`);
+            trace(`Mac address: ${Net.get("MAC")}`);
+            trace(`SSID: ${Net.get("SSID")}`);
+            break;
     }
 })
