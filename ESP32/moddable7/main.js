@@ -29,5 +29,6 @@ const monitor = new WiFi(opcionesWifi, msg => {
                 WiFi.connect(opcionesWifi);
 
             }, 5*1000);
+            break;
     }
-})
+});
