@@ -6,3 +6,5 @@ import Timer from "timer";
 const {ssid, password} = config;
 
 WiFi.mode = 1;
+
+trace(`ssid: ${ssid}, pass: ${password}`)
