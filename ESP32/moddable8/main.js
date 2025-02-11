@@ -9,3 +9,13 @@ const mqtt = new Client({
     timeout: 5000,
     id
 });
+
+
+mqtt.onReady = function(){
+    this.suscribe("ESP32/mqtt/example/#");
+
+    this.timer = Timer.set(() => {
+        this.publish(`ESP32/${id}/date`, Date());
+        this.publish(`ESP32/${id}/random`, Math.random());
+    }, 0, 5000);
+}
