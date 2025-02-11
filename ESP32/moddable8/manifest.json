@@ -5,5 +5,9 @@
         "$(MODDABLE)/modules/network/mqtt/manifest.json"
     ],
 
+    "modules": {
+        "*": ["./main"]
+    },
     
+    ""
 }
