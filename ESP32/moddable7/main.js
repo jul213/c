@@ -25,7 +25,9 @@ const monitor = new WiFi(opcionesWifi, msg => {
         case WiFi.disconnected:
             trace(`wifi desconectada`);
             Timer.set(function(){
-                trace(`vamos a tratar`)
-            })
+                trace(`vamos a tratar de reconectarnos`);
+                WiFi.connect(opcionesWifi);
+
+            }, 5*1000);
     }
 })
