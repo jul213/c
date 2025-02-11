@@ -22,5 +22,10 @@ const monitor = new WiFi(opcionesWifi, msg => {
             trace(`Mac address: ${Net.get("MAC")}`);
             trace(`SSID: ${Net.get("SSID")}`);
             break;
+        case WiFi.disconnected:
+            trace(`wifi desconectada`);
+            Timer.set(function(){
+                trace(`vamos a tratar`)
+            })
     }
 })
