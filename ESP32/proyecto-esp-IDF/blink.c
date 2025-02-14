@@ -21,5 +21,14 @@ static void configure_led(void){
     ESP_LOGI(TAG, "configurando el led");
     gpio_reset_pin(LED_GPIO);
     gpio_set_direction(LED_GPIO, GPIO_MODE_OUTPUT);
-    
+
+}
+
+
+//funcion para configurar el boton
+
+static void configure_button(void){
+    ESP_LOGI(TAG, "configurando el boton");
+    gpio_reset_pin(BUTTON_GPIO);
+    gpio_set_direction(BUTTON_GPIO, GPIO_MODE_INPUT);
 }
