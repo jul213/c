@@ -44,5 +44,5 @@ static void blink(void){
 void app_main(void){
 
     configure_led();
-    
+    configure_button();
 }
