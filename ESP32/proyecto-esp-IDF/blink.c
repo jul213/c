@@ -37,5 +37,5 @@ static void configure_button(void){
 static void blink(void){
 
     gpio_set_level(LED_GPIO, s_led_state);
-    
+    ESP_LOGI(TAG, "led is %s", s_led_state == true ? "ON" : "OF");
 }
