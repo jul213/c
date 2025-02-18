@@ -32,3 +32,8 @@ static void configure_button(void){
     gpio_reset_pin(BUTTON_GPIO);
     gpio_set_direction(BUTTON_GPIO, GPIO_MODE_INPUT);
 }
+
+
+static void blink(void){
+
+}
