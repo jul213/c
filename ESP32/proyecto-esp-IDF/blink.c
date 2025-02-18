@@ -36,4 +36,6 @@ static void configure_button(void){
 
 static void blink(void){
 
+    gpio_set_level(LED_GPIO, s_led_state);
+    
 }
