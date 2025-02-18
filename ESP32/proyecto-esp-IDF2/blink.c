@@ -6,4 +6,8 @@
 #include "sdkconfig.h"
 
 
-static const char *TAG = "actividad 3 proyecto con esp-idf"
+static const char *TAG = "actividad 3 proyecto con esp-idf";
+
+#define led1 17;
+#define led2 5;
+#define led3 18;
