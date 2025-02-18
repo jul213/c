@@ -53,7 +53,10 @@ void app_main(void){
             printf("level to one %i", gpio_set_level(BUTTON_GPIO));
 
             if(s_button_state == 0){
-                
+
+                s_led_state = !s_led_state;
+                blink();
+                s_button_state = 1;
             }
         }
     }
