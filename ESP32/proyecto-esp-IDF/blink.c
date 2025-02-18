@@ -45,4 +45,16 @@ void app_main(void){
 
     configure_led();
     configure_button();
+
+
+    while (1){
+
+        if(gpio_set_level(BUTTON_GPIO) == 1){
+            printf("level to one %i", gpio_set_level(BUTTON_GPIO));
+
+            if(s_button_state == 0){
+                
+            }
+        }
+    }
 }
