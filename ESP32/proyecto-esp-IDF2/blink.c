@@ -11,3 +11,6 @@ static const char *TAG = "actividad 3 proyecto con esp-idf";
 #define led1 17;
 #define led2 5;
 #define led3 18;
+
+
+static uint32_t uStackDepth = 2048
