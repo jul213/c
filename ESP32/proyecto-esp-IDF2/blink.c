@@ -4,3 +4,6 @@
 #include "driver/gpio.h"
 #include "esp_log.h"
 #include "sdkconfig.h"
+
+
+static const char *TAG = "actividad 3 proyecto con esp-idf"
