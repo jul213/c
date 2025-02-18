@@ -27,4 +27,7 @@ static void configure_led(void){
 
     gpio_reset_pin(led2);
     gpio_set_direction(led2, GPIO_MODE_OUTPUT);
+
+    gpio_reset_pin(led3);
+    gpio_set_direction(led3, GPIO_MODE_OUTPUT);
 }
