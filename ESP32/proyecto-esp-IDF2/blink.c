@@ -24,4 +24,7 @@ static void configure_led(void){
     ESP_LOGI(TAG, "configuracion de led");
     gpio_reset_pin(led1);
     gpio_set_direction(led1, GPIO_MODE_OUTPUT);
+
+    gpio_reset_pin(led2);
+    gpio_set_direction(led2, GPIO_MODE_OUTPUT);
 }
