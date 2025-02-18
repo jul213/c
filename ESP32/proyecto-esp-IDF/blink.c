@@ -58,6 +58,11 @@ void app_main(void){
                 blink();
                 s_button_state = 1;
             }
+
+
+        }
+        else{
+            s_button_state = 0;
         }
     }
 }
