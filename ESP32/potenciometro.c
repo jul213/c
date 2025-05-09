@@ -13,4 +13,5 @@ void loop(){
     Serial.print("valor del potenciometro");
     Serial.println(valorPot);
     digitalWrite(led, HIGH);
+    delay(valorPot);
 }
