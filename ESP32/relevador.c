@@ -11,6 +11,10 @@ void setup(){
 void loop(){
     valorLDR = analogRead(LDR);
     Serial.println(valorLDR);
-    
+    if (valorLDR < 95){
+        digitalWrite(RLY, HIGH);
+    } else {
+        digitalWrite(RLY, LOW);
+    }
 }
 
