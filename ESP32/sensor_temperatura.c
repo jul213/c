@@ -9,7 +9,7 @@ void setup(){
 }
 
 void loop(){
-    voltaje = analogRead(sensor_t) * 3.3/1024;
+    voltaje = analogRead(sensor_t) * 3.3/1023;
     temperatura = voltaje * 100;
     Serial.print(temperatura);
 }
