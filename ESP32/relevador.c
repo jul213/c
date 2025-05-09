@@ -10,6 +10,7 @@ void setup(){
 
 void loop(){
     valorLDR = analogRead(LDR);
+    Serial.println(valorLDR);
     
 }
 
