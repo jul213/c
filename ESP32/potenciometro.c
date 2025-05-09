@@ -14,4 +14,5 @@ void loop(){
     Serial.println(valorPot);
     digitalWrite(led, HIGH);
     delay(valorPot);
+    digitalWrite(led,LOW)
 }
