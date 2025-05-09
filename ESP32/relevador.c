@@ -8,3 +8,8 @@ void setup(){
     pinMode(RLY, OUTPUT);
 }
 
+void loop(){
+    valorLDR = analogRead(LDR);
+    
+}
+
